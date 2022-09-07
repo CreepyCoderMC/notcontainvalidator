@@ -1,4 +1,4 @@
-# Contain Validator
+# Not Contain Validator
 This module is small but easy to use. The purpose of this module is to check if a string does not contains a sub string, it can optionally also do none case sensitive comparing.
 ## Validation processes
 The code contains two methods to check it a string contains a invalid substring.
@@ -36,6 +36,7 @@ Testing Condition 5 Passed = true
 | Version  | Date                   | Remark                              |
 |----------|------------------------|-------------------------------------|
 | 1.0.0    | 07 September 2022      | Official first release              |
+| 1.0.1    | 07 Septrmber 2022      | Correcting documentation            |
 ## How To Install
 Run the following command in a terminal or command prompt in the folder you want to install the module to.
 > npm i @teamcoder/notcontainvalidator

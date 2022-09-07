@@ -227,7 +227,8 @@
 
  /*     VERSION HISTORY
   *
-  *     1.0.0       07 September 2022           Official first release 
+  *     1.0.0       07 September 2022           Official first release
+  *     1.0.1       07 September 2022           Correcting documentation 
   */
 
  /* Validates if a string does not contains a sub string
