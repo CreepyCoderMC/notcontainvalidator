@@ -229,6 +229,7 @@
   *
   *     1.0.0       07 September 2022           Official first release
   *     1.0.1       07 September 2022           Correcting documentation 
+  *     1.0.2       09 September 2022           Fixed package.json so that npm can install on any os
   */
 
  /* Validates if a string does not contains a sub string
