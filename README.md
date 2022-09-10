@@ -9,7 +9,7 @@ This method is not case sensitive so both string value and sub string value can 
 ## Code sample
 This following code is actually how I tested that all methods correctly functioned as intended, is also provided in this module.
 ```
-import subStringIsValid from './node_modules/@teamcoder/notcontainvalidator/notcontainvalidator.js';
+import { subStringIsValid } from '@teamcoder/notcontainvalidator';
 
 console.log( "Testing Condition 1 Passed = " + !subStringIsNotValid(   "Hallo world" , "world" , true  ) );
 console.log( "Testing Condition 2 Passed = " + !subStringIsNotValid(   "Hallo world" , "World" , false ) );
@@ -30,6 +30,7 @@ Testing Condition 5 Passed = true
 @param  { String  }  source        The source string to be checked
 @param  { String  }  subString     The sub string to be checked
 @param  { Boolean }  caseSensitive If the check must be case sensitive ( optional , default = true )
+
 @return { Boolean }                Validation passed or failed
 ```
 ## Version History
@@ -38,6 +39,7 @@ Testing Condition 5 Passed = true
 | 1.0.0    | 07 September 2022      | Official first release                                |
 | 1.0.1    | 07 September 2022      | Correcting documentation                              |
 | 1.0.2    | 09 September 2022      | Fixed package.json so that npm can install on any os  |
+| 1.0.3    | 10 September 2022      | Fixed code to be proper npm package                   |
 ## How To Install
 Run the following command in a terminal or command prompt in the folder you want to install the module to.
 > npm i @teamcoder/notcontainvalidator

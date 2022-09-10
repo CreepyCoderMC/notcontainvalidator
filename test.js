@@ -1,4 +1,4 @@
-import subStringIsNotValid from './notcontainvalidator.js';
+import { subStringIsNotValid } from '@teamcoder/notcontainvalidator';
 
 console.log( "Testing Condition 1 Passed = " + !subStringIsNotValid(   "Hallo world" , "world" , true  ) );
 console.log( "Testing Condition 2 Passed = " + !subStringIsNotValid(   "Hallo world" , "World" , false ) );
