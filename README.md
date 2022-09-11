@@ -56,6 +56,7 @@ import { subStringIsNotValid } from '@teamcoder/notcontainvalidator';
 | 1.0.2    | 09 September 2022      | Fixed package.json so that npm can install on any os                                                  |
 | 1.0.3    | 10 September 2022      | Fixed code to be proper npm package                                                                   |
 | 1.0.4    | 11 September 2022      | Removed Default from export function in biggervalidator.js file                                       |
+| 1.0.5    | 11 September 2022      | Correcting documentation                                                                              |
 ## How To Install
 Run the following command in a terminal or command prompt in the folder you want to install the module to.
 > npm i @teamcoder/notcontainvalidator
