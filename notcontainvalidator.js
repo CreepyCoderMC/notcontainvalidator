@@ -233,6 +233,7 @@
   *     1.0.3       10 September 2022           Fixed code to be proper npm package
   *     1.0.4       11 September 2022           Removed Default from export function in notcontainvalidator.js file
   *     1.0.5       11 September 2022           Correcting documentation
+  *     1.0.6       11 September 2022           Correcting documentation
   */
 
  /* Validates if a string does not contains a sub string

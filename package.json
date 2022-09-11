@@ -2,7 +2,7 @@
 
   "type":         "module",
   "name":         "@teamcoder/notcontainvalidator",
-  "version":      "1.0.5",
+  "version":      "1.0.6",
   "description":  "This module is small but easy to use. The purpose of this module is to check if a string does not contains a sub string, it can optionally also do none case sensitive comparing.",
   "main":         "notcontainvalidator.js",
  
