@@ -231,6 +231,7 @@
   *     1.0.1       07 September 2022           Correcting documentation 
   *     1.0.2       09 September 2022           Fixed package.json so that npm can install on any os
   *     1.0.3       10 September 2022           Fixed code to be proper npm package
+  *     1.0.4       11 September 2022           Removed Default from export function in notcontainvalidator.js file
   */
 
  /* Validates if a string does not contains a sub string
@@ -241,7 +242,7 @@
   * @return { Boolean }                Validation passed or failed
   */
 
-export default function subStringIsNotValid ( source , subString , caseSensitive = true ) {
+export function subStringIsNotValid ( source , subString , caseSensitive = true ) {
 
     // Makes source and substring lower case if validation is not case sensitive 
     if( !caseSensitive ) {
